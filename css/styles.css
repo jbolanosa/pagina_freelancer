@@ -1,9 +1,18 @@
+:root { /*custom properties*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
 html {
     font-size: 62.5%; /*1rem = 10px*/
 }
 
-body {
+body { /*lo que ponga aqui se aplica a todo el documento*/
     font-size: 16px; /*1rem = 10px*/
+    font-family: 'Krub', sans-serif;
 }
 
 .titulo {
