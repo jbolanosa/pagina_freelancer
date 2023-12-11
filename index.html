@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador freelance</title>
+    <link rel="preload" href="css/normalize.css" as="style"> <!--Para cargar mas rapido el css-->
+    <link rel="stylesheet" href="css/normalize.css"> <!--Libreria que permite normalizar los estilos en diferentes navegadores-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Las librerias van primero, hay que evitar colocar muchas fuentes-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
@@ -18,12 +20,14 @@
         <h1 class="titulo">José Bolaños <span>Freelancer</span></h1>
     </header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <div class="nav-background">
+        <nav class="contenedor navegacion-principal">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
 
     <img src="img/hero.jpg" alt="">
 

@@ -23,3 +23,24 @@ body { /*lo que ponga aqui se aplica a todo el documento*/
 .titulo span {
     font-size: 2rem;
 }
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.navegacion-principal {
+    background-color: var(--secundario);
+    padding: 1rem;
+    display: flex; /*por defecto es row, se puede cambiar con flex-direction*/
+    justify-content: space-between; /*este es para row, y para column es align-items*/
+}
+
+.nav-background {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+}
